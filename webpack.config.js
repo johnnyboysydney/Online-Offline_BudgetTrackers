@@ -31,7 +31,7 @@ const config = {
     plugins: [
         new WebpackPwaManifest({
             // the name of the generated manifest file
-            filename: "manifest.json",
+            filename: "manifest.webmanifest",
             // we aren't using webpack to generate our html so we 
             // set inject to false 
             inject: false,
@@ -40,7 +40,6 @@ const config = {
             fingerprints: false,
             name: "Budget Tracker App",
             short_name: "Budget Tracker App",
-            filename: "manifest.json",
             description: "Progressive Web App",
             background_color: "#ffffff",
             display: "standalone",
