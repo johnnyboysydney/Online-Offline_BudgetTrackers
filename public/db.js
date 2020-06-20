@@ -22,7 +22,7 @@ request.onsuccess = ({ target }) => {
 };
 
 request.onerror = function (event) {
-  console.log("hiiiii" + event.target.errorCode);
+  console.log("Ok" + event.target.errorCode);
 };
 
 function saveRecord(record) {
