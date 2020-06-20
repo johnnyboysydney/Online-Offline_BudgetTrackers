@@ -1,5 +1,19 @@
 // Dependencies and variables
-const FILES_TO_CACHE = [];
+const FILES_TO_CACHE = [
+    "/",
+    "/index.html",
+    "/styles.css",
+    "./dist/bundle.js",
+    "./dist/manifest.webmanifest",
+    "./dist/icon_96x96.png",
+    "./dist/icon_128x128.png",
+    "./dist/icon_192x192.png",
+    "./dist/icon_256x256.png",
+    "./dist/icon_384x384.png",
+    "./dist/icon_512x512.png",
+    "./icons/icon-192x192.png",
+    "./icons/icon-512x512.png",
+];
 
 const PRECACHE = "precache-v1";
 const RUNTIME = "runtime";
