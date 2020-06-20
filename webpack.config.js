@@ -31,6 +31,14 @@ const config = {
             background_color: "#ffffff",
             display: "standalone",
             start_url: "/",
+            icons: [
+                {
+                  src: path.resolve("./public/icons/icon-512x512.png"),
+                  sizes: [96, 128, 192, 256, 384, 512], // multiple sizes
+                },
+              ],
         })
     ]
-}
+};
+// Exporting the module config
+module.exports = config;
