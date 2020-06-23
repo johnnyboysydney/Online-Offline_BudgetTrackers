@@ -1,3 +1,4 @@
+// Dependencies 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("/service-worker.js").then(reg => {
@@ -143,6 +144,7 @@ function sendTransaction(isAdding) {
       }
     })
     .catch(err => {
+      //console.log("Fuckme")
       // fetch failed, so save in indexed db
       saveRecord(transaction);
 
