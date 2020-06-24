@@ -1,3 +1,5 @@
+<img src="https://github.com/johnnyboysydney/Online-Offline_BudgetTrackers/blob/master/public/assets/icon/budget_icon.jpg" width="150" height="100">
+
 # Online-Offline_BudgetTrackers
 
 [contributors-shield]: https://img.shields.io/github/contributors/johnnyboysydney/Online-Offline_BudgetTrackers.svg?style=flat-square
@@ -22,7 +24,6 @@
 - [Development](#development)
 - [User Story](#user-story)
 - [Installation](#installation)
-- [Schema](#schema)
 - [Dependencies](#dependencies)
 - [Tests](#tests)
 - [Built With](#built-with)
@@ -38,19 +39,23 @@
 
 ## Description
 
+Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+
 ## Development
 
-Created the MVC structure first and worked upon each element required, starting from the node.js, using terminal and running ``npm i``, installing all the required dependencies, and started by creating the schema.sql and seeds.sql, preparing the database, credentials and being able to connect to it
+Created the MVC structure first and worked upon each element required, starting from the node.js, using terminal and running ``npm i``, installing all the required dependencies  
 Below some links of interest:
 
 - node.js - <https://nodejs.org/en/>
 - heroku-cli NPM Package - <https://www.npmjs.com/package/heroku-cli>
-- express NPM Package - <https://www.npmjs.com/package/express>
 - path NPM Package - <https://www.npmjs.com/package/path>
+- indexedDB - <https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API>
 
 ## User Story
 
-Section under construction
+AS AN avid traveller  
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection  
+SO THAT my account balance is accurate when I am traveling
 
 ## Installation
 
@@ -59,22 +64,28 @@ To use this application locally:
 - Clone the GitHub repository at:
 - You will to install all the dependencies, see [Dependencies](#dependencies) for the complete list
 - Using ```npm install```, install all the dependencies
-- Using MySQL or MSSQL database, create the DB using the _schema.sql_ file, you can review the database schema on the [SQL schema](#schema) file
-- Using the _seeds.sql_ file to populate the DB
-- Once you have all the above created, you can edit the _server.js_ file where the password is and add your password to access your local DataBase.
 - You can then open a terminal or cmd prompt, and navigate to the folder where **_server.js_** is located and type: ``node server.js``
-- Once the server is running, open a browser and navigate to localhost:8080 or the port you have selected
-- Section under construction
-
-### Schema
-
-Section under construction
+- Once the server is running, open a browser and navigate to localhost:3000 or the port you have selected
+- The app will be running in the browser
 
 ### Dependencies
 
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.3",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-pwa-manifest": "^4.2.0"
+
 ## Tests
 
-Work in progress. Ran out of time to implement these, I will get back to this project at a later date to finalize these
+Canary test enabled. More to come
 
 ## Built With
 
@@ -90,7 +101,7 @@ You just need to follow the instructions on the [installation](#installation) se
 2. What if I get an error?  
 Ensure that you have install all the dependencies required for this to work. See [Dependencies](#dependencies) section
 
-3. Can I refractor the code in the any of the files file?
+3. Can I refractor the code in the any of the files file?  
 Yes, you can modify and refractor the code
 
 ## Demo
@@ -107,7 +118,7 @@ Yes, you can modify and refractor the code
 
 ## Acknowledgments
 
-- John "To my sons and daughters, who give me the power I need to keep going. To Agustin, mentor in my learnings."
+- John "To my sons and daughters, who give me the power I need to keep going. To Agustin, mentor in my learnings, and the TA, Sandesh and Dyan"
 
 ### CopyRight
 
