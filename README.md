@@ -15,7 +15,6 @@
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![JS Standard][build-style-shield]][build-style-url] [![MIT License][license-shield]][license-url]
 [![Build Status](https://travis-ci.com/johnnyboysydney/Online-Offline_BudgetTrackers.svg?branch=master)](https://travis-ci.com/johnnyboysydney/Online-Offline_BudgetTrackers)
 
-
 ## Table of Content
 
 - [Link to the running application](#link-to-the-running-application)
