@@ -39,9 +39,11 @@
     "test": "test"
   },
   "devDependencies": {
+    "assert": "^2.0.0",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "cross-env": "^7.0.2",
-    "mocha": "^8.0.1"
+    "mocha": "^8.0.1",
+    "supertest": "^4.0.2"
   }
 }
